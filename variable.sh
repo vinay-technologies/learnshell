@@ -5,5 +5,5 @@ echo trainer name - $trainer
 echo class name -${class}
 
 
-Date=${+ %F}
+Date=${date +%F}
 echo Today date is $Date
